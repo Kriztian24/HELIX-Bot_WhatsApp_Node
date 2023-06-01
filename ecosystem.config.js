@@ -2,7 +2,7 @@ module.exports = {
     apps: [{
         name: "HELIX-Bot_WhatsApp",
         script: "app.js",
-        watch: true,
+        watch: false,
         max_memory_restart: '1000M',
         exec_mode: "cluster",
         instances: 1,
