@@ -1,0 +1,280 @@
+[
+  {
+    "ref": "4683bcff-ff93-492f-bd26-784b9067ae29",
+    "keyword": "dcae0123ff6447a3659c1fd9b22a3641",
+    "answer": "hola",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_ddc19445-9b29-40be-8564-7afa6ffa2c40",
+    "keyword": "key_ef8c715a-49cf-4fc5-af25-fd539ce80e3d",
+    "answer": "Bienvenido a HELIX Bot, en que puedo ayudarte?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "7868c6d9908fb5b9ff8033f6fdb9e201",
+    "from": "593990179723"
+  },
+  {
+    "ref": "db8d2300-4be0-42a2-9a0c-f3118b4ae07c",
+    "keyword": "7868c6d9908fb5b9ff8033f6fdb9e201",
+    "answer": "quisiera haceer un pedido",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "2999a881c5fa67c3589561706893616e"
+  },
+  {
+    "ref": "ans_2ecd5060-6dea-484d-8266-7eec3ba97539",
+    "keyword": "key_00ef3d3d-7b95-4e32-aa74-a2187f39d848",
+    "answer": "Por supuesto, me puedes ayudar con tu email",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "519cd9240d46ecbc8026dfe4b865339c",
+    "from": "593990179723"
+  },
+  {
+    "ref": "ans_534f13e2-feb5-4847-8e4c-0b71ac671c3b",
+    "keyword": "ans_2ecd5060-6dea-484d-8266-7eec3ba97539",
+    "answer": "recuerda que debe ser valido",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "1aeaf5edd219a35724b64a42ff804baf",
+    "from": "593990179723"
+  },
+  {
+    "ref": "477607b3-fc5a-414b-bab2-36f6c49d4f9f",
+    "keyword": "1aeaf5edd219a35724b64a42ff804baf",
+    "answer": "kirzitan.24@hond.con",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "75aba3aa03f426f7161b36aec480128b"
+  },
+  {
+    "ref": "ans_b8a69014-0862-41a2-911e-050a3aa2009c",
+    "keyword": "ans_534f13e2-feb5-4847-8e4c-0b71ac671c3b",
+    "answer": "enseguida te envio la cotización por email",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "b5edc984c824e760496fa13b9fb20783",
+    "from": "593990179723"
+  },
+  {
+    "ref": "5a7d25e4-3903-4fb0-be81-8bca957579a0",
+    "keyword": "b5edc984c824e760496fa13b9fb20783",
+    "answer": "Pedir",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "f85f44e9c5bd1200d4aafd800d13c3a1"
+  },
+  {
+    "ref": "ans_58472880-1220-49dd-9308-03183454f8a2",
+    "keyword": "key_75d85fbf-c1fe-44a3-921a-0f5b22e9e7b9",
+    "answer": "El menu del dia es el siguiente:",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "09ae4b777b70811df38462efc7d2a583",
+    "from": "593990179723"
+  },
+  {
+    "ref": "2cc22d73-4685-45c8-8767-3c0458dc51fe",
+    "answer": "1. mensaje ",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "593990179723",
+    "refSerialize": "67e7788a1eaa257cb73a44c8c14cb1c1"
+  },
+  {
+    "ref": "5074ecdf-6ff7-42c1-95c4-6db33be6a045",
+    "answer": "2. mensaje",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "593990179723",
+    "refSerialize": "6283defef73d5d43854ba1a450bbfc34"
+  },
+  {
+    "ref": "9f617d73-839e-4202-b043-f771a70a545d",
+    "answer": "3. mensaje",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "593990179723",
+    "refSerialize": "ba38f3996f640966838de587257d0ca2"
+  },
+  {
+    "ref": "ans_a79cce39-3f77-4adc-b536-0cfc5391a11c",
+    "keyword": "ans_58472880-1220-49dd-9308-03183454f8a2",
+    "answer": "Si te interesa alguna opcion escribe el *numero* de la opcion en letras",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 1500,
+      "nested": [
+        {
+          "ref": "key_a88a529e-2240-4f1a-a514-906305269628",
+          "keyword": [
+            "uno"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "ef28426c329f0742ee83a5bd2282c592"
+        },
+        {
+          "ref": "ans_8a50ec33-c4e5-405f-8b59-82517b943566",
+          "keyword": "key_a88a529e-2240-4f1a-a514-906305269628",
+          "answer": "Escribiste el numero *Uno*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "a5d48633a94ea90210c107a734c4e5d3"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3a26f381bd3d348004e589a7aaac7685",
+    "from": "593990179723"
+  },
+  {
+    "ref": "b87dd971-2bd9-4885-929c-bfb70c7e5279",
+    "keyword": "3a26f381bd3d348004e589a7aaac7685",
+    "answer": "uno",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "87e29a896f485a1b2949c69d69005b05"
+  },
+  {
+    "ref": "ans_8a50ec33-c4e5-405f-8b59-82517b943566",
+    "keyword": "key_a88a529e-2240-4f1a-a514-906305269628",
+    "answer": "Escribiste el numero *Uno*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "a5d48633a94ea90210c107a734c4e5d3",
+    "from": "593990179723"
+  },
+  {
+    "ref": "6dbfa4c3-c448-4bce-8efc-5c9ae838bc5d",
+    "keyword": "a5d48633a94ea90210c107a734c4e5d3",
+    "answer": "imagen",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "3c2b76301f1bd2a3f48f4f746a3de7c3"
+  },
+  {
+    "ref": "ans_9b06fe6b-470a-453e-a35d-1bf88de06fc3",
+    "keyword": "key_a163d6b9-1a93-4f9d-9b17-f94aaa588b50",
+    "answer": "esta es tu imagen",
+    "options": {
+      "media": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSph1l-PpljS-lY_czJi5Rcj-jInHOBwzbrw&usqp=CAU",
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "b874fab08f12d65e7dc9ab2870983993",
+    "from": "593990179723"
+  },
+  {
+    "ref": "28a0eb45-c4c0-40fb-8407-a9ed499c319b",
+    "keyword": "b874fab08f12d65e7dc9ab2870983993",
+    "answer": "gracis",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "b801cb1427ecb9637476f321f24a7a79"
+  },
+  {
+    "ref": "d8fdb535-bf73-43e4-ba01-8e649661c5eb",
+    "keyword": "b801cb1427ecb9637476f321f24a7a79",
+    "answer": "gracias",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "81fcae8cb1a09948a92c591b527233ce"
+  },
+  {
+    "ref": "ans_baad7fcf-e085-41dc-816b-f6e9ac439ec0",
+    "keyword": "key_5cabbb43-f733-431f-8e2c-29a102e361a2",
+    "answer": "Hasta otra ocasión, chao.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "26c9ee7f90c187de4db6503ca37d3671",
+    "from": "593990179723"
+  }
+]
