@@ -4,26 +4,14 @@ const { createBot, createProvider, createFlow, addKeyword } = require('@bot-what
 
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const JsonFileAdapter = require('@bot-whatsapp/database/json')
+const { PrincipalFlow, initBotFlow } = require('./src/flows/flows')
 
-//const ChatGPTClass = require('./openai/chatgpt.class')
-//const createBotGPT = async({ provider, database }) => {
-//    return new ChatGPTClass(database, provider)
-//}
+/*const ChatGPTClass = require('./src/openai/chatgpt.class')
+const createBotGPT = async({ provider, database }) => {
+    return new ChatGPTClass(database, provider)
+}*/
 
 /******************************************************************************************************/
-const flujoPrincipal = addKeyword(['Hola', 'buenas', 'saludos', 'que tal'])
-    .addAnswer('Bienvenido a HELIX Bot, en que puedo ayudarte?')
-
-const flujoSecundario = addKeyword(['cotizacion', 'cotización', 'pedido'])
-    .addAnswer(['Por supuesto, me puedes ayudar con tu email'])
-    .addAnswer(['recuerda que debe ser valido'], { capture: true }, (ctx, { fallBack }) => {
-        if (!ctx.body.includes('@')) {
-            return fallBack()
-        }
-        console.log('Mensaje Entrante: ', ctx.body)
-    })
-    .addAnswer('enseguida te envio la cotización por email')
-
 const finalizacionFlujo = addKeyword(['gracias', 'chao', 'bye'])
     .addAnswer('Hasta otra ocasión, chao.')
 
@@ -60,7 +48,7 @@ const flujoBotones = addKeyword('botones')
 
 const main = async() => {
     const adapterDB = new JsonFileAdapter()
-    const adapterFlow = createFlow([flujoPrincipal, flujoSecundario, finalizacionFlujo, flujoConRespuestaApi, flujoImagen, flujoBotones])
+    const adapterFlow = createFlow([PrincipalFlow, initBotFlow, finalizacionFlujo, flujoConRespuestaApi, flujoImagen, flujoBotones])
     const adapterProvider = createProvider(BaileysProvider)
 
     /*createBotGPT({

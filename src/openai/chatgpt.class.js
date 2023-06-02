@@ -3,7 +3,7 @@ require('dotenv').config()
 
 class ChatGPTClass extends CoreClass {
     queue = []
-    optionGPT = { model: "text-davinci-003" }
+    optionGPT = { model: "gpt-3.5-turbo" }
     openai = undefined
 
     constructor(_database, _provider) {
@@ -15,11 +15,7 @@ class ChatGPTClass extends CoreClass {
         const { ChatGPTAPI } = await
         import ("chatgpt");
         this.openai = new ChatGPTAPI({
-            apiKey: process.env.API_KEY,
-            debug: true,
-            completionParams: {
-                model: 'text-davinci-003'
-            }
+            apiKey: process.env.API_KEY
         })
     }
 
