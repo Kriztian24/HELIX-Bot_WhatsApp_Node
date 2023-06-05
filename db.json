@@ -1,15 +1,15 @@
 [
   {
-    "ref": "003a9565-c85c-4c50-99cb-e0ef4ee6b58c",
-    "keyword": "9ff121005e4383a6b8f04469a4ac4b3c",
+    "ref": "3f39747e-a356-43bc-a980-6991d9b9b299",
+    "keyword": "b0fff9de71fbf76e0ed02d9f8bd98ab2",
     "answer": "bot",
     "options": {},
     "from": "593990179723",
     "refSerialize": "a2ccc49680d312a17766fc74fea5c32e"
   },
   {
-    "ref": "ans_a362ce35-14cb-491e-8f7c-5c87a543ffce",
-    "keyword": "key_3e3f3031-a2f1-4e88-b3d0-dbb74ceb0cbb",
+    "ref": "ans_049683a0-236f-47de-a188-88840cc536dd",
+    "keyword": "key_74575334-65d9-4fee-b1fa-a538faa90d5e",
     "answer": "Genial, espera un momento muentras validamos tus datos....",
     "options": {
       "media": null,
@@ -19,7 +19,7 @@
       "delay": 0,
       "nested": [
         {
-          "ref": "key_4abf8607-3eeb-4006-95ef-20921f9f15f2",
+          "ref": "key_59ae6301-dd72-4ce4-9b80-dc62578e6288",
           "keyword": [
             "2"
           ],
@@ -30,8 +30,8 @@
           "refSerialize": "389a29e5d1b72d14d3fa321bb058be56"
         },
         {
-          "ref": "ans_e0547fc3-3435-4174-8637-65cda65a7e4b",
-          "keyword": "key_4abf8607-3eeb-4006-95ef-20921f9f15f2",
+          "ref": "ans_093afe71-125d-46b4-bf6d-059f9565f197",
+          "keyword": "key_59ae6301-dd72-4ce4-9b80-dc62578e6288",
           "answer": "Estamos procesando tu petición...",
           "options": {
             "media": null,
@@ -43,10 +43,10 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "5c73ba72656b900442cdef1a5a818ed8"
+          "refSerialize": "d22cab4554695ff858280c1cb1648982"
         },
         {
-          "ref": "key_4b6ee821-cf4a-4576-8494-09ca41152e6d",
+          "ref": "key_d1bef2e0-7c36-4c56-8995-c029747edfee",
           "keyword": [
             "1"
           ],
@@ -57,8 +57,8 @@
           "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
         },
         {
-          "ref": "ans_7f719734-712e-44f1-b25f-df65cdf33cf6",
-          "keyword": "key_4b6ee821-cf4a-4576-8494-09ca41152e6d",
+          "ref": "ans_7583fcd5-34e8-479c-971e-c99b27802cb2",
+          "keyword": "key_d1bef2e0-7c36-4c56-8995-c029747edfee",
           "answer": "Estamos procesando tu petición...",
           "options": {
             "media": null,
@@ -70,17 +70,17 @@
             "keyword": {},
             "callback": true
           },
-          "refSerialize": "e090fc25fe957d29529202e0ab41cb97"
+          "refSerialize": "0d142215269724cd58be529490af1f57"
         }
       ],
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "e6b5524e43ff0e2eb1ac4ce3e0bd6262",
+    "refSerialize": "9f2eeddb89f0b33b52eb43fa13a58106",
     "from": "593990179723"
   },
   {
-    "ref": "29f1b5a9-d68d-480c-8553-1150bd3bbe35",
+    "ref": "c3a13710-8ef9-4bc3-85fe-c0eccea4a295",
     "answer": "Estimad@ _*KRISTIAN*_, por favor elije una de las siguientes opciones:",
     "options": {
       "media": null,
@@ -91,7 +91,7 @@
     "refSerialize": "13f825ba8699c50ced4ab35cf9664ef3"
   },
   {
-    "ref": "aca930b9-7fbe-4710-ad90-981eb3cc78a7",
+    "ref": "d0597bee-e98f-474f-8eb1-9495a4695563",
     "answer": "1️⃣. Mi Saldo 💵\n2️⃣. Mis Facturas 🧾\n3️⃣. Estado de mis despachos 📦\n4️⃣. _Salir_ 👋",
     "options": {
       "media": null,
@@ -102,7 +102,7 @@
     "refSerialize": "73e4337cb03ddee8fe32f8dcd0d24168"
   },
   {
-    "ref": "25740250-2cd4-481d-9785-1a24e249d10b",
+    "ref": "e1d490d9-2166-4291-8f8a-8a9a9b0ab0d2",
     "answer": "Escriba el número de la opción seleccionada",
     "options": {
       "media": null,
@@ -113,165 +113,16 @@
     "refSerialize": "5ba8cff8b3b80abd3088ddb777c9adc9"
   },
   {
-    "ref": "df85a91e-823f-457a-9df8-2a0433a94b4f",
-    "keyword": "e6b5524e43ff0e2eb1ac4ce3e0bd6262",
-    "answer": "1",
-    "options": {},
-    "from": "593990179723",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
-  },
-  {
-    "ref": "ans_7f719734-712e-44f1-b25f-df65cdf33cf6",
-    "keyword": "key_4b6ee821-cf4a-4576-8494-09ca41152e6d",
-    "answer": "Estamos procesando tu petición...",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "e090fc25fe957d29529202e0ab41cb97",
-    "from": "593990179723"
-  },
-  {
-    "ref": "87373d6c-4e48-4025-a963-7f7bb096ed72",
-    "answer": "KRISTIAN, Tu saldo Actual es: *_$2139.82_*",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false
-    },
-    "from": "593990179723",
-    "refSerialize": "765e69e5fa82fc3701995fee327c3459"
-  },
-  {
-    "ref": "a1545366-5d6d-48b3-87ef-b93d33c77b42",
-    "keyword": "e090fc25fe957d29529202e0ab41cb97",
-    "answer": "bot",
-    "options": {},
-    "from": "593990179723",
-    "refSerialize": "a2ccc49680d312a17766fc74fea5c32e"
-  },
-  {
-    "ref": "ans_a362ce35-14cb-491e-8f7c-5c87a543ffce",
-    "keyword": "key_3e3f3031-a2f1-4e88-b3d0-dbb74ceb0cbb",
-    "answer": "Genial, espera un momento muentras validamos tus datos....",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [
-        {
-          "ref": "key_4abf8607-3eeb-4006-95ef-20921f9f15f2",
-          "keyword": [
-            "2"
-          ],
-          "options": {
-            "sensitive": true,
-            "regex": false
-          },
-          "refSerialize": "389a29e5d1b72d14d3fa321bb058be56"
-        },
-        {
-          "ref": "ans_e0547fc3-3435-4174-8637-65cda65a7e4b",
-          "keyword": "key_4abf8607-3eeb-4006-95ef-20921f9f15f2",
-          "answer": "Estamos procesando tu petición...",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "5c73ba72656b900442cdef1a5a818ed8"
-        },
-        {
-          "ref": "key_4b6ee821-cf4a-4576-8494-09ca41152e6d",
-          "keyword": [
-            "1"
-          ],
-          "options": {
-            "sensitive": true,
-            "regex": false
-          },
-          "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
-        },
-        {
-          "ref": "ans_7f719734-712e-44f1-b25f-df65cdf33cf6",
-          "keyword": "key_4b6ee821-cf4a-4576-8494-09ca41152e6d",
-          "answer": "Estamos procesando tu petición...",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "e090fc25fe957d29529202e0ab41cb97"
-        }
-      ],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "e6b5524e43ff0e2eb1ac4ce3e0bd6262",
-    "from": "593990179723"
-  },
-  {
-    "ref": "69519b07-da77-4c72-8c7a-5c5fcf296d6a",
-    "answer": "Estimad@ _*KRISTIAN*_, por favor elije una de las siguientes opciones:",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false
-    },
-    "from": "593990179723",
-    "refSerialize": "13f825ba8699c50ced4ab35cf9664ef3"
-  },
-  {
-    "ref": "b8227955-a77f-48a1-9a4f-c6c06784f2b8",
-    "answer": "1️⃣. Mi Saldo 💵\n2️⃣. Mis Facturas 🧾\n3️⃣. Estado de mis despachos 📦\n4️⃣. _Salir_ 👋",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false
-    },
-    "from": "593990179723",
-    "refSerialize": "73e4337cb03ddee8fe32f8dcd0d24168"
-  },
-  {
-    "ref": "25a81141-e9bd-4a94-91b1-a118d3da7618",
-    "answer": "Escriba el número de la opción seleccionada",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false
-    },
-    "from": "593990179723",
-    "refSerialize": "5ba8cff8b3b80abd3088ddb777c9adc9"
-  },
-  {
-    "ref": "30bf5734-da1e-4969-b496-85ddf008b1e0",
-    "keyword": "e6b5524e43ff0e2eb1ac4ce3e0bd6262",
+    "ref": "34939098-3b37-43f2-9e3d-78d5f89b7ddd",
+    "keyword": "9f2eeddb89f0b33b52eb43fa13a58106",
     "answer": "2",
     "options": {},
     "from": "593990179723",
     "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
   },
   {
-    "ref": "ans_e0547fc3-3435-4174-8637-65cda65a7e4b",
-    "keyword": "key_4abf8607-3eeb-4006-95ef-20921f9f15f2",
+    "ref": "ans_093afe71-125d-46b4-bf6d-059f9565f197",
+    "keyword": "key_59ae6301-dd72-4ce4-9b80-dc62578e6288",
     "answer": "Estamos procesando tu petición...",
     "options": {
       "media": null,
@@ -283,14 +134,14 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "5c73ba72656b900442cdef1a5a818ed8",
+    "refSerialize": "d22cab4554695ff858280c1cb1648982",
     "from": "593990179723"
   },
   {
-    "ref": "cfb16f10-19fc-4302-a010-aea1361f8e75",
+    "ref": "471d273b-a66e-426d-8a68-ac6cbc866c26",
     "answer": "*KRISTIAN*, tus últimas Facturas son:",
     "options": {
-      "media": "C:\\Proyectos\\HELIX-Bot_WhatsApp_Node\\src\\temp\\tabla_1685998123574.png",
+      "media": "C:\\Proyectos\\HELIX-Bot_WhatsApp_Node\\src\\utils\\temp\\tabla_1685999791920.png",
       "buttons": [],
       "capture": false
     },
@@ -298,7 +149,7 @@
     "refSerialize": "b6a12f9e9ba67bfd14e7637969c38fb0"
   },
   {
-    "ref": "9fd925df-878d-4454-b725-9e805b064ae0",
+    "ref": "333e9d7f-88a5-474d-a75c-fef337035d67",
     "answer": "Si necesitas una factura en concreto escribe *Factura*, si deseas regresar al inicio escribe _bot_",
     "options": {
       "media": null,

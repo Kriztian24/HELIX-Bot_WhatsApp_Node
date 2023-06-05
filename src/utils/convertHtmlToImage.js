@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs-extra');
+const path = require('path')
 
 module.exports = async function convertirTablaAImagen(html) {
     const browser = await puppeteer.launch({
@@ -34,7 +35,8 @@ module.exports = async function convertirTablaAImagen(html) {
     const nombreArchivo = `tabla_${Date.now()}.png`;
 
     // Guardar la imagen en la carpeta destino
-    const rutaImagen = 'C:\\Proyectos\\HELIX-Bot_WhatsApp_Node\\src\\temp\\' + nombreArchivo;
+    const ruta = path.join(__dirname, '\\temp\\')
+    const rutaImagen = ruta + nombreArchivo;
     await fs.writeFile(rutaImagen, imagenBuffer);
 
     // Retornar la ruta completa de la imagen

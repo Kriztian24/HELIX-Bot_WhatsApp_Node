@@ -1,7 +1,9 @@
 const fs = require('fs');
+const path = require('path')
 
 const plantillaFacturas = () => {
-    return fs.readFileSync('C:\\Proyectos\\HELIX-Bot_WhatsApp_Node\\src\\plantillasHTML\\mis_facturas.html', 'utf8');
+    const ruta = path.join(__dirname, '\\plantillasHTML\\mis_facturas.html')
+    return fs.readFileSync(ruta, 'utf8');
 }
 
 module.exports = {
