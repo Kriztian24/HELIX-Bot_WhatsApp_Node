@@ -1,0 +1,76 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB01801C8504B651F2053',
+    participant: undefined
+  },
+  messageTimestamp: 1685998230,
+  pushName: 'Kristian',
+  message: Message {
+    conversation: 'bot',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'bot',
+  from: '593990179723'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0EF672EC73E4B187E75',
+    participant: undefined
+  },
+  messageTimestamp: 1685998232,
+  pushName: 'Kristian',
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '593990179723'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0048A352F8ECE9DCF19',
+    participant: undefined
+  },
+  messageTimestamp: 1685998235,
+  pushName: 'Kristian',
+  message: Message {
+    conversation: 'bot',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'bot',
+  from: '593990179723'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B009C7988CDCFB9F65',
+    participant: undefined
+  },
+  messageTimestamp: 1685998238,
+  pushName: 'Kristian',
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '593990179723'
+}

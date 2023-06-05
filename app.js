@@ -4,7 +4,7 @@ const { createBot, createProvider, createFlow, addKeyword } = require('@bot-what
 
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const JsonFileAdapter = require('@bot-whatsapp/database/json')
-const { PrincipalFlow, initBotFlow } = require('./src/flows/flows')
+const { WelcomeFlow, BotFlow } = require('./src/flows/flows')
 
 /*const ChatGPTClass = require('./src/openai/chatgpt.class')
 const createBotGPT = async({ provider, database }) => {
@@ -12,12 +12,11 @@ const createBotGPT = async({ provider, database }) => {
 }*/
 
 /******************************************************************************************************/
-const finalizacionFlujo = addKeyword(['gracias', 'chao', 'bye'])
+/*const finalizacionFlujo = addKeyword(['gracias', 'chao', 'bye'])
     .addAnswer('Hasta otra ocasión, chao.')
 
 const flujoUno = addKeyword(['uno'])
     .addAnswer('Escribiste el numero *Uno*')
-
 
 const flujoConRespuestaApi = addKeyword(['Pedir'], { sensitive: true })
     .addAnswer('El menu del dia es el siguiente:', null, async(ctx, { flowDynamic }) => {
@@ -42,13 +41,12 @@ const flujoBotones = addKeyword('botones')
             { body: 'chao' }
         ]
     })
-    /******************************************************************************************************/
-
+*/
 
 
 const main = async() => {
     const adapterDB = new JsonFileAdapter()
-    const adapterFlow = createFlow([PrincipalFlow, initBotFlow, finalizacionFlujo, flujoConRespuestaApi, flujoImagen, flujoBotones])
+    const adapterFlow = createFlow([WelcomeFlow, BotFlow])
     const adapterProvider = createProvider(BaileysProvider)
 
     /*createBotGPT({
