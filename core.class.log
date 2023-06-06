@@ -2,10 +2,10 @@
   key: {
     remoteJid: '593990179723@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0D2B82E4FEE6061CB36',
+    id: '3EB094C8604F18AF160ADE',
     participant: undefined
   },
-  messageTimestamp: 1685999903,
+  messageTimestamp: 1686074308,
   pushName: 'Kristian',
   message: Message {
     conversation: 'bot',
@@ -21,10 +21,10 @@
   key: {
     remoteJid: '593990179723@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0238B0D2E980E32055C',
+    id: '3EB094E3D8DE3602D61E74',
     participant: undefined
   },
-  messageTimestamp: 1685999906,
+  messageTimestamp: 1686074312,
   pushName: 'Kristian',
   message: Message {
     conversation: '2',
@@ -34,5 +34,43 @@
     }
   },
   body: '2',
+  from: '593990179723'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0E06A42582D7CA1F2D2',
+    participant: undefined
+  },
+  messageTimestamp: 1686074315,
+  pushName: 'Kristian',
+  message: Message {
+    conversation: 'factura',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'factura',
+  from: '593990179723'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB044EA7F41710BDC53A1',
+    participant: undefined
+  },
+  messageTimestamp: 1686074321,
+  pushName: 'Kristian',
+  message: Message {
+    conversation: 'chao',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'chao',
   from: '593990179723'
 }
