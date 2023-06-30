@@ -6,7 +6,7 @@ const DESPEDIDA_KEYWORD = ['chao', 'gracias', 'bye', 'hasta luego', 'hasta pront
 const ByeFlow = addKeyword(DESPEDIDA_KEYWORD)
     .addAnswer(MSG_DESPEDIDA)
 
-const SalirFlow = addKeyword('4', { sensitive: true })
+const SalirFlow = addKeyword('5', { sensitive: true })
     .addAnswer(MSG_DESPEDIDA)
 
 module.exports = {

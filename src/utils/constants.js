@@ -17,7 +17,7 @@ const MSG_NO_ESTA_REGISTRADO = `Parece que aun no eres cliente nuestro o no tien
                             por favor dejanos tus nombres completos y tu numero de identificación para 
                             registrarte y puedas usar nuestro BOT.`
 
-const MSG_TENEMOS_PROBLEMAS = `Upss... Tenemos Problemas, en un momento te ponemos en contacto con un asesor...`
+const MSG_TENEMOS_PROBLEMAS = `Upss... Tenemos Problemas 🔥, en un momento te ponemos en contacto con un asesor...`
 
 const MSG_NECESITA_AYUDA = `Si necesitas mas información puedes regresar al menú escribiendo _*BOT*_`
 

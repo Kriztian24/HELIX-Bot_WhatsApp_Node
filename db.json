@@ -1,552 +1,16 @@
 [
   {
-    "ref": "d9206623-b4df-4d54-8fc9-e9ef6d732c5a",
-    "keyword": "3ae1e4dac8a82a40992cb27161f6b17d",
-    "answer": "bot",
+    "ref": "3ac9d7f4-ccbe-4d9d-9ca9-77163efc66fd",
+    "keyword": "bd66000bc9d75f62f957551ecfeaa055",
+    "answer": "hola",
     "options": {},
     "from": "593990179723",
-    "refSerialize": "a2ccc49680d312a17766fc74fea5c32e"
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_2b1a8076-a753-4c4f-99d4-dfd88feb48c8",
-    "keyword": "key_c3df8239-3b8f-4051-84a5-2d983661f5bb",
-    "answer": "Genial, espera un momento muentras validamos tus datos....",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [
-        {
-          "ref": "key_42b02549-5087-4abe-b6b0-3d364f107293",
-          "keyword": [
-            "2"
-          ],
-          "options": {
-            "sensitive": true,
-            "regex": false
-          },
-          "refSerialize": "389a29e5d1b72d14d3fa321bb058be56"
-        },
-        {
-          "ref": "ans_28121693-e8a7-4cd8-88e2-0355f419d77f",
-          "keyword": "key_42b02549-5087-4abe-b6b0-3d364f107293",
-          "answer": "Estamos procesando tu petición... ⏳",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [
-              {
-                "ref": "key_e799a5ca-2f0e-47ad-8724-12012a6731c1",
-                "keyword": [
-                  "factura"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "9678d171da5ecb1d86447cddd128d940"
-              },
-              {
-                "ref": "ans_26d7cedd-5100-4d11-b8a3-f90ac4c27d38",
-                "keyword": "key_e799a5ca-2f0e-47ad-8724-12012a6731c1",
-                "answer": "Por favor digita la secuencia de la factura que necesitas con este formato: \n_*XXX-XXX-XXXXXXXXX*_ (ej. _001-106-000578214_)",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": true,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [
-                    {
-                      "ref": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-                      "keyword": [
-                        "chao",
-                        "gracias",
-                        "bye",
-                        "hasta luego",
-                        "hasta pronto"
-                      ],
-                      "options": {
-                        "sensitive": false,
-                        "regex": false
-                      },
-                      "refSerialize": "b304a0d0f4f22fc6f878be9f86a53392"
-                    },
-                    {
-                      "ref": "ans_77ae2cbd-eb81-4590-a597-b01c4e88c901",
-                      "keyword": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-                      "answer": "👋¡Ha sido un placer ayudarte! Si tienes más preguntas en el futuro o necesitas cualquier tipo de ayuda, no dudes en contactarme escribiendo *BOT*.\n¡Que tengas un excelente día! 🔆 ¡Hasta luego!",
-                      "options": {
-                        "media": null,
-                        "buttons": [],
-                        "capture": false,
-                        "child": null,
-                        "delay": 0,
-                        "nested": [],
-                        "keyword": {},
-                        "callback": false
-                      },
-                      "refSerialize": "a1563245a68383321ac8ec2cbdea69fd"
-                    }
-                  ],
-                  "keyword": {},
-                  "callback": true
-                },
-                "refSerialize": "78c23b3d9c78815561c7e6ddf533489f"
-              },
-              {
-                "ref": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-                "keyword": [
-                  "chao",
-                  "gracias",
-                  "bye",
-                  "hasta luego",
-                  "hasta pronto"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "b304a0d0f4f22fc6f878be9f86a53392"
-              },
-              {
-                "ref": "ans_77ae2cbd-eb81-4590-a597-b01c4e88c901",
-                "keyword": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-                "answer": "👋¡Ha sido un placer ayudarte! Si tienes más preguntas en el futuro o necesitas cualquier tipo de ayuda, no dudes en contactarme escribiendo *BOT*.\n¡Que tengas un excelente día! 🔆 ¡Hasta luego!",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "a1563245a68383321ac8ec2cbdea69fd"
-              }
-            ],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "6fec1213d9078bbcc0986728317193eb"
-        },
-        {
-          "ref": "key_0d9217af-782f-44bd-ac7a-27392ec02f1f",
-          "keyword": [
-            "1"
-          ],
-          "options": {
-            "sensitive": true,
-            "regex": false
-          },
-          "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
-        },
-        {
-          "ref": "ans_c90d5e35-28c4-45e5-bafa-c1c364af6741",
-          "keyword": "key_0d9217af-782f-44bd-ac7a-27392ec02f1f",
-          "answer": "Estamos procesando tu petición... ⏳",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [
-              {
-                "ref": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-                "keyword": [
-                  "chao",
-                  "gracias",
-                  "bye",
-                  "hasta luego",
-                  "hasta pronto"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "b304a0d0f4f22fc6f878be9f86a53392"
-              },
-              {
-                "ref": "ans_77ae2cbd-eb81-4590-a597-b01c4e88c901",
-                "keyword": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-                "answer": "👋¡Ha sido un placer ayudarte! Si tienes más preguntas en el futuro o necesitas cualquier tipo de ayuda, no dudes en contactarme escribiendo *BOT*.\n¡Que tengas un excelente día! 🔆 ¡Hasta luego!",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "a1563245a68383321ac8ec2cbdea69fd"
-              }
-            ],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "0f3c3d967ce7b345b35065b9f5aa48b1"
-        },
-        {
-          "ref": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-          "keyword": [
-            "chao",
-            "gracias",
-            "bye",
-            "hasta luego",
-            "hasta pronto"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "b304a0d0f4f22fc6f878be9f86a53392"
-        },
-        {
-          "ref": "ans_77ae2cbd-eb81-4590-a597-b01c4e88c901",
-          "keyword": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-          "answer": "👋¡Ha sido un placer ayudarte! Si tienes más preguntas en el futuro o necesitas cualquier tipo de ayuda, no dudes en contactarme escribiendo *BOT*.\n¡Que tengas un excelente día! 🔆 ¡Hasta luego!",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "a1563245a68383321ac8ec2cbdea69fd"
-        },
-        {
-          "ref": "key_b6304c70-5464-40b9-8d46-a8107e8b42b1",
-          "keyword": "4",
-          "options": {
-            "sensitive": true,
-            "regex": false
-          },
-          "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
-        },
-        {
-          "ref": "ans_e33ec25d-e7fa-4d67-a1a6-abd82c8b97a5",
-          "keyword": "key_b6304c70-5464-40b9-8d46-a8107e8b42b1",
-          "answer": "👋¡Ha sido un placer ayudarte! Si tienes más preguntas en el futuro o necesitas cualquier tipo de ayuda, no dudes en contactarme escribiendo *BOT*.\n¡Que tengas un excelente día! 🔆 ¡Hasta luego!",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "b085425fdc17a58d37e05a3f42fe6dbd"
-        }
-      ],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "fefbd9a5aef9eec8cca084f1c775a9b6",
-    "from": "593990179723"
-  },
-  {
-    "ref": "25c7b569-1abb-4e25-bc96-d34c6968042f",
-    "answer": "Estimad@ _*KRISTIAN*_, por favor elije una de las siguientes opciones:",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false
-    },
-    "from": "593990179723",
-    "refSerialize": "13f825ba8699c50ced4ab35cf9664ef3"
-  },
-  {
-    "ref": "296b6f9f-23d0-4865-96a9-22634457cafd",
-    "answer": "1️⃣. Mi Saldo 💵\n2️⃣. Mis Facturas 🧾\n3️⃣. Estado de mis despachos 📦\n4️⃣. _Salir_ 👋",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false
-    },
-    "from": "593990179723",
-    "refSerialize": "73e4337cb03ddee8fe32f8dcd0d24168"
-  },
-  {
-    "ref": "a42e73c4-a11e-460a-abd8-93f611d7e853",
-    "answer": "Escriba el número de la opción seleccionada",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false
-    },
-    "from": "593990179723",
-    "refSerialize": "5ba8cff8b3b80abd3088ddb777c9adc9"
-  },
-  {
-    "ref": "585c63d3-2c06-4047-aebd-2cb87903efd8",
-    "keyword": "fefbd9a5aef9eec8cca084f1c775a9b6",
-    "answer": "2",
-    "options": {},
-    "from": "593990179723",
-    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
-  },
-  {
-    "ref": "ans_28121693-e8a7-4cd8-88e2-0355f419d77f",
-    "keyword": "key_42b02549-5087-4abe-b6b0-3d364f107293",
-    "answer": "Estamos procesando tu petición... ⏳",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [
-        {
-          "ref": "key_e799a5ca-2f0e-47ad-8724-12012a6731c1",
-          "keyword": [
-            "factura"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "9678d171da5ecb1d86447cddd128d940"
-        },
-        {
-          "ref": "ans_26d7cedd-5100-4d11-b8a3-f90ac4c27d38",
-          "keyword": "key_e799a5ca-2f0e-47ad-8724-12012a6731c1",
-          "answer": "Por favor digita la secuencia de la factura que necesitas con este formato: \n_*XXX-XXX-XXXXXXXXX*_ (ej. _001-106-000578214_)",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": true,
-            "child": null,
-            "delay": 0,
-            "nested": [
-              {
-                "ref": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-                "keyword": [
-                  "chao",
-                  "gracias",
-                  "bye",
-                  "hasta luego",
-                  "hasta pronto"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "b304a0d0f4f22fc6f878be9f86a53392"
-              },
-              {
-                "ref": "ans_77ae2cbd-eb81-4590-a597-b01c4e88c901",
-                "keyword": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-                "answer": "👋¡Ha sido un placer ayudarte! Si tienes más preguntas en el futuro o necesitas cualquier tipo de ayuda, no dudes en contactarme escribiendo *BOT*.\n¡Que tengas un excelente día! 🔆 ¡Hasta luego!",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "a1563245a68383321ac8ec2cbdea69fd"
-              }
-            ],
-            "keyword": {},
-            "callback": true
-          },
-          "refSerialize": "78c23b3d9c78815561c7e6ddf533489f"
-        },
-        {
-          "ref": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-          "keyword": [
-            "chao",
-            "gracias",
-            "bye",
-            "hasta luego",
-            "hasta pronto"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "b304a0d0f4f22fc6f878be9f86a53392"
-        },
-        {
-          "ref": "ans_77ae2cbd-eb81-4590-a597-b01c4e88c901",
-          "keyword": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-          "answer": "👋¡Ha sido un placer ayudarte! Si tienes más preguntas en el futuro o necesitas cualquier tipo de ayuda, no dudes en contactarme escribiendo *BOT*.\n¡Que tengas un excelente día! 🔆 ¡Hasta luego!",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "a1563245a68383321ac8ec2cbdea69fd"
-        }
-      ],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "6fec1213d9078bbcc0986728317193eb",
-    "from": "593990179723"
-  },
-  {
-    "ref": "6831fa77-6787-4fee-b191-6f8a2692fded",
-    "answer": "*KRISTIAN*, tus últimas Facturas son:",
-    "options": {
-      "media": "C:\\Proyectos\\HELIX-Bot_WhatsApp_Node\\src\\utils\\temp\\tabla_1686074196588.png",
-      "buttons": [],
-      "capture": false
-    },
-    "from": "593990179723",
-    "refSerialize": "b6a12f9e9ba67bfd14e7637969c38fb0"
-  },
-  {
-    "ref": "bc7babe0-b507-48e8-ba41-5642d4601d99",
-    "answer": "Si necesitas una factura en concreto escribe *Factura*, si deseas regresar al inicio escribe _bot_",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false
-    },
-    "from": "593990179723",
-    "refSerialize": "48b2ee299e480ffc78ddaa3594833ada"
-  },
-  {
-    "ref": "12ed1354-43bf-4b4a-9b42-121630b7c3a5",
-    "keyword": "6fec1213d9078bbcc0986728317193eb",
-    "answer": "factura",
-    "options": {},
-    "from": "593990179723",
-    "refSerialize": "4f9c47acec22e1019acce3b866d921e0"
-  },
-  {
-    "ref": "ans_26d7cedd-5100-4d11-b8a3-f90ac4c27d38",
-    "keyword": "key_e799a5ca-2f0e-47ad-8724-12012a6731c1",
-    "answer": "Por favor digita la secuencia de la factura que necesitas con este formato: \n_*XXX-XXX-XXXXXXXXX*_ (ej. _001-106-000578214_)",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "nested": [
-        {
-          "ref": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-          "keyword": [
-            "chao",
-            "gracias",
-            "bye",
-            "hasta luego",
-            "hasta pronto"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "b304a0d0f4f22fc6f878be9f86a53392"
-        },
-        {
-          "ref": "ans_77ae2cbd-eb81-4590-a597-b01c4e88c901",
-          "keyword": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-          "answer": "👋¡Ha sido un placer ayudarte! Si tienes más preguntas en el futuro o necesitas cualquier tipo de ayuda, no dudes en contactarme escribiendo *BOT*.\n¡Que tengas un excelente día! 🔆 ¡Hasta luego!",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "a1563245a68383321ac8ec2cbdea69fd"
-        }
-      ],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "78c23b3d9c78815561c7e6ddf533489f",
-    "from": "593990179723"
-  },
-  {
-    "ref": "0285a9f3-086e-480f-968a-73c4b16b4330",
-    "keyword": "78c23b3d9c78815561c7e6ddf533489f",
-    "answer": "chao",
-    "options": {},
-    "from": "593990179723",
-    "refSerialize": "ea0cab858701709c11c99521cc448354"
-  },
-  {
-    "ref": "ans_26d7cedd-5100-4d11-b8a3-f90ac4c27d38",
-    "keyword": "key_e799a5ca-2f0e-47ad-8724-12012a6731c1",
-    "answer": "Por favor digita la secuencia de la factura que necesitas con este formato: \n_*XXX-XXX-XXXXXXXXX*_ (ej. _001-106-000578214_)",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "nested": [
-        {
-          "ref": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-          "keyword": [
-            "chao",
-            "gracias",
-            "bye",
-            "hasta luego",
-            "hasta pronto"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "b304a0d0f4f22fc6f878be9f86a53392"
-        },
-        {
-          "ref": "ans_77ae2cbd-eb81-4590-a597-b01c4e88c901",
-          "keyword": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-          "answer": "👋¡Ha sido un placer ayudarte! Si tienes más preguntas en el futuro o necesitas cualquier tipo de ayuda, no dudes en contactarme escribiendo *BOT*.\n¡Que tengas un excelente día! 🔆 ¡Hasta luego!",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "a1563245a68383321ac8ec2cbdea69fd"
-        }
-      ],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "78c23b3d9c78815561c7e6ddf533489f",
-    "from": "593990179723"
-  },
-  {
-    "ref": "ans_77ae2cbd-eb81-4590-a597-b01c4e88c901",
-    "keyword": "key_9daf5b12-48c7-4f84-8947-acea26614f15",
-    "answer": "👋¡Ha sido un placer ayudarte! Si tienes más preguntas en el futuro o necesitas cualquier tipo de ayuda, no dudes en contactarme escribiendo *BOT*.\n¡Que tengas un excelente día! 🔆 ¡Hasta luego!",
+    "ref": "ans_10ade405-a10f-46ac-9e8b-4bb1c5426748",
+    "keyword": "key_f078cd98-b504-4447-b4bb-cef9506a0436",
+    "answer": "Bienvenido a *Helix BI*",
     "options": {
       "media": null,
       "buttons": [],
@@ -557,7 +21,265 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "a1563245a68383321ac8ec2cbdea69fd",
+    "refSerialize": "f983e6b1542701e57d67be2863b18bab",
     "from": "593990179723"
+  },
+  {
+    "ref": "ans_483049ed-4d2d-44be-ae08-4135667c50d3",
+    "keyword": "ans_10ade405-a10f-46ac-9e8b-4bb1c5426748",
+    "answer": "Como te Ayudamos?\n\n*1* Ver status de Reparacion\n*2* Ventas\n*3* Administracion",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "b97badd3d6948e11abfea443413c4d6c",
+    "from": "593990179723"
+  },
+  {
+    "ref": "ans_d02b3569-32e1-4fac-93b9-8c954fbf8559",
+    "keyword": "ans_483049ed-4d2d-44be-ae08-4135667c50d3",
+    "answer": "Responde con el numero de la opción",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d1275102248a539de12ea20cefddfd54",
+    "from": "593990179723"
+  },
+  {
+    "ref": "bedce82a-8829-4b7b-a589-a919ad36be1a",
+    "keyword": "d1275102248a539de12ea20cefddfd54",
+    "answer": "1",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "91eeee34-6e16-43d9-9bd5-69cdcd29b32d",
+    "answer": "Consultando a la base de datos....",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "593990179723",
+    "refSerialize": "371b02c78297e8c198137999044d0453"
+  },
+  {
+    "ref": "565aab88-087b-48a0-9d0b-04684f14fb16",
+    "answer": "¡Hola, Kristian! Gracias por contactarnos. Permíteme revisar el estado de tus reparaciones.\n\n- Teléfono 1:\n   - Modelo: iPhone 14 Pro Max\n   - Descripción: Daño de pantalla debido a la caída de agua.\n   - Estado: En reparación.\n   - Observación del técnico: Se ha detectado que entró Coca Cola en los contactos.\n\n- Teléfono 2:\n   - Modelo: Samsung J7 Pro\n   - Descripción: Daño en la memoria.\n   - Estado: Reparado.\n   - Observación del técnico: Se ha reemplazado la memoria por una nueva. Puedes venir a retirarlo.\n\nSi tienes alguna pregunta adicional o necesitas más detalles sobre alguna de las reparaciones, no dudes en pedirlo. Estoy aquí para ayudarte.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "593990179723",
+    "refSerialize": "5b722750c211f4b1dd71c3a7c9500eeb"
+  },
+  {
+    "ref": "ans_5d10d12d-226c-4ce7-baca-83656e377b61",
+    "keyword": "ans_963a7f6a-ce28-46fd-a2e7-25988be775f6",
+    "answer": "¿Tienes otra duda?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "379440d1b3521e918ff2ab7d0bf0e705",
+    "from": "593990179723"
+  },
+  {
+    "ref": "51853e53-3571-47be-8043-4ef796cc1d2a",
+    "keyword": "379440d1b3521e918ff2ab7d0bf0e705",
+    "answer": "para cuando estara listo el samsung ese es mas importante para mi",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "48e651e9c66dc697f3f466b6eab071ea"
+  },
+  {
+    "ref": "ans_5d10d12d-226c-4ce7-baca-83656e377b61",
+    "keyword": "ans_963a7f6a-ce28-46fd-a2e7-25988be775f6",
+    "answer": "Lamentablemente, no tengo acceso a la información específica sobre el tiempo exacto de finalización de la reparación del Samsung J7 Pro. Te recomendaría que te comuniques con nuestro departamento de servicio al cliente para obtener una actualización más precisa. Puedes hacerlo marcando nuestro número de contacto o visitando nuestra tienda física más cercana. Estoy aquí para ayudarte en caso de que necesites algo más.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "379440d1b3521e918ff2ab7d0bf0e705",
+    "from": "593990179723"
+  },
+  {
+    "ref": "d5d19f66-cb48-49ab-b05c-b5d51aec0adb",
+    "keyword": "379440d1b3521e918ff2ab7d0bf0e705",
+    "answer": "ok gracias eso es lo que voy a hacer",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "541ff52800b3caa494f5b4c4ac005115"
+  },
+  {
+    "ref": "46f06106-ec38-477d-b6b3-b509cd037223",
+    "answer": "¡De nada! Estoy aquí para ayudarte. Si tienes alguna otra pregunta o necesitas más asistencia, no dudes en contactarnos. ¡Que tengas un excelente día!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "593990179723",
+    "refSerialize": "a864241e539b96fdcdd917171ba52b0e"
+  },
+  {
+    "ref": "82077190-0b59-4bb7-b53d-0fcb52cf5a19",
+    "keyword": "541ff52800b3caa494f5b4c4ac005115",
+    "answer": "ok",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "5024d8306739a7b2b633ca6e46c22e04"
+  },
+  {
+    "ref": "78c1d059-8364-4ca9-9b1c-7dc230b74d65",
+    "keyword": "5024d8306739a7b2b633ca6e46c22e04",
+    "answer": "hola",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_10ade405-a10f-46ac-9e8b-4bb1c5426748",
+    "keyword": "key_f078cd98-b504-4447-b4bb-cef9506a0436",
+    "answer": "Bienvenido a *Helix BI*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "f983e6b1542701e57d67be2863b18bab",
+    "from": "593990179723"
+  },
+  {
+    "ref": "ans_483049ed-4d2d-44be-ae08-4135667c50d3",
+    "keyword": "ans_10ade405-a10f-46ac-9e8b-4bb1c5426748",
+    "answer": "Como te Ayudamos?\n\n*1* Ver status de Reparacion\n*2* Ventas\n*3* Administracion",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "b97badd3d6948e11abfea443413c4d6c",
+    "from": "593990179723"
+  },
+  {
+    "ref": "ans_d02b3569-32e1-4fac-93b9-8c954fbf8559",
+    "keyword": "ans_483049ed-4d2d-44be-ae08-4135667c50d3",
+    "answer": "Responde con el numero de la opción",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d1275102248a539de12ea20cefddfd54",
+    "from": "593990179723"
+  },
+  {
+    "ref": "2a749ae9-b596-430b-bc9f-211e26fc6375",
+    "keyword": "d1275102248a539de12ea20cefddfd54",
+    "answer": "1",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "8dfcef86-98dd-4dd8-9bf9-3f9d4bd38a07",
+    "answer": "Consultando a la base de datos....",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "593990179723",
+    "refSerialize": "371b02c78297e8c198137999044d0453"
+  },
+  {
+    "ref": "c97ab8fd-76ba-41c4-985f-04a59765aff9",
+    "answer": "Hola, Kristian. Gracias por proporcionar el ID_CLIENTE. Permíteme verificar el estado de tus reparaciones.\n\n- Teléfono 1:\n   - Modelo: iPhone 14 Pro Max\n   - Descripción: Daño de pantalla debido a la caída de agua.\n   - Estado: En reparación.\n   - Observación del técnico: Se ha detectado que entró Coca Cola en los contactos.\n\n- Teléfono 2:\n   - Modelo: Samsung J7 Pro\n   - Descripción: Daño en la memoria.\n   - Estado: Reparado.\n   - Observación del técnico: Se ha reemplazado la memoria por una nueva. Puedes venir a retirarlo.\n\nSi tienes alguna otra pregunta o necesitas más detalles sobre las reparaciones, estoy aquí para ayudarte.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "593990179723",
+    "refSerialize": "474bfabb6663f9be0ba40ca0c0e9ef76"
+  },
+  {
+    "ref": "ans_5d10d12d-226c-4ce7-baca-83656e377b61",
+    "keyword": "ans_963a7f6a-ce28-46fd-a2e7-25988be775f6",
+    "answer": "¿Tienes otra duda?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "379440d1b3521e918ff2ab7d0bf0e705",
+    "from": "593990179723"
+  },
+  {
+    "ref": "d81cca81-ee00-4e43-ad54-1f4f38a3a5b9",
+    "keyword": "379440d1b3521e918ff2ab7d0bf0e705",
+    "answer": "gracias",
+    "options": {},
+    "from": "593990179723",
+    "refSerialize": "81fcae8cb1a09948a92c591b527233ce"
+  },
+  {
+    "ref": "be0e0caa-b65a-4a1a-8e06-21ad3ae55f4d",
+    "answer": "¡De nada, Kristian! Si tienes alguna otra pregunta o necesitas más asistencia, no dudes en hacérmelo saber. ¡Estoy aquí para ayudarte!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false
+    },
+    "from": "593990179723",
+    "refSerialize": "b9efbefcba43adea917f85f77d7a567b"
   }
 ]

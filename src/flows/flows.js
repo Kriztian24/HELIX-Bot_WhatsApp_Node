@@ -11,8 +11,8 @@ const WelcomeFlow = addKeyword(SALUDOS_KEYWORD)
     .addAnswer(MSG_BIENVENIDA)
     .addAnswer([MSG_HABLAR_ASESOR])
 
-
-const opcionesBot = '1️⃣. Mi Saldo 💵\n2️⃣. Mis Facturas 🧾\n3️⃣. Estado de mis despachos 📦\n4️⃣. _Salir_ 👋'
+//  0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟 
+const opcionesBot = '1️⃣. Mi Saldo 💵\n2️⃣. Mis Facturas 🧾\n3️⃣. Estado de mis despachos 📦\n4️⃣. Lista de Precios \n5️⃣. _Salir_ 👋'
 
 const BotFlow = addKeyword(['bot'])
     .addAnswer(['Genial, espera un momento muentras validamos tus datos....'], null, async(ctx, { flowDynamic }) => {

@@ -1,0 +1,14 @@
+2023/06/30-09:06:44.816 3088 Reusing MANIFEST C:\Proyectos\HELIX-Bot_WhatsApp_Node\.wwebjs_auth\session-bot_sessions\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/30-09:06:44.817 3088 Recovering log #43
+2023/06/30-09:06:44.889 3088 Reusing old log C:\Proyectos\HELIX-Bot_WhatsApp_Node\.wwebjs_auth\session-bot_sessions\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000043.log 
+2023/06/30-09:09:03.940 3e64 Level-0 table #49: started
+2023/06/30-09:09:03.962 3e64 Level-0 table #49: 1204860 bytes OK
+2023/06/30-09:09:03.964 3e64 Delete type=0 #43
+2023/06/30-09:09:04.841 3e64 Compacting 1@1 + 2@2 files
+2023/06/30-09:09:04.912 3e64 Generated table #50@1: 48336 keys, 2245451 bytes
+2023/06/30-09:09:04.938 3e64 Generated table #51@1: 27897 keys, 575554 bytes
+2023/06/30-09:09:04.939 3e64 Compacted 1@1 + 2@2 files => 2821005 bytes
+2023/06/30-09:09:04.939 3e64 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/06/30-09:09:04.939 3e64 Delete type=2 #45
+2023/06/30-09:09:04.939 3e64 Delete type=2 #46
+2023/06/30-09:09:04.939 3e64 Delete type=2 #49

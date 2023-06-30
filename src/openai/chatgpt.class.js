@@ -1,13 +1,11 @@
-const { CoreClass } = require("@bot-whatsapp/bot");
 require('dotenv').config()
 
-class ChatGPTClass extends CoreClass {
+class ChatGPTClass {
     queue = []
-    optionGPT = { model: "gpt-3.5-turbo" }
+    optionGPT = { model: "gpt-3.5-turbo-0301" }
     openai = undefined
 
-    constructor(_database, _provider) {
-        super(null, _database, _provider)
+    constructor() {
         this.init().then()
     }
 
@@ -19,22 +17,26 @@ class ChatGPTClass extends CoreClass {
         })
     }
 
-    handleMsg = async(ctx) => {
-        const { from, body } = ctx
+    handleMsgChatGPT = async(body) => {
+        //const { from, body } = ctx
 
-        const completion = await this.openai.sendMessage(body, {
-            conversationId: (!this.queue.length) ? undefined : this.queue[this.queue.length - 1].conversationId,
-            parentMessageId: (!this.queue.length) ? undefined : this.queue[this.queue.length - 1].id,
+        const interaccionChatGPT = await this.openai.sendMessage(body, {
+            conversationId: (!this.queue.length) ?
+                undefined :
+                this.queue[this.queue.length - 1].conversationId,
+            parentMessageId: (!this.queue.length) ?
+                undefined :
+                this.queue[this.queue.length - 1].id,
         })
 
-        this.queue.push(completion)
+        this.queue.push(interaccionChatGPT)
+        return interaccionChatGPT
+            /*const parseMessage = {
+                ...completion,
+                answer: completion.text,
+            }
 
-        const parseMessage = {
-            ...completion,
-            answer: completion.text,
-        }
-
-        this.sendFlowSimple([parseMessage], from)
+            this.sendFlowSimple([parseMessage], from)*/
     }
 
 }
