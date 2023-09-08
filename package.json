@@ -10,7 +10,8 @@
     },
     "keywords": [],
     "dependencies": {
-        "@adiwajshing/baileys": "4.4.0",
+        "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
+        "@adiwajshing/keyed-db": "0.2.4",
         "@bot-whatsapp/bot": "latest",
         "@bot-whatsapp/cli": "latest",
         "@bot-whatsapp/database": "latest",
@@ -26,8 +27,7 @@
         "nanoid": "^4.0.2",
         "openai": "^3.2.1",
         "puppeteer": "^20.5.0",
-        "wa-sticker-formatter": "4.3.2",
-        "whatsapp-web.js": "^1.21.0"
+        "wa-sticker-formatter": "4.3.2"
     },
     "devDependencies": {
         "nodemon": "^2.0.7"

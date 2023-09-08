@@ -1,632 +1,192 @@
-[handleMsg]:  Message {
-  _data: {
-    id: {
-      fromMe: false,
-      remote: '593990179723@c.us',
-      id: '3EB0CB57F8C4F312B1C3A3',
-      _serialized: 'false_593990179723@c.us_3EB0CB57F8C4F312B1C3A3'
-    },
-    body: 'hola',
-    type: 'chat',
-    t: 1688134147,
-    notifyName: 'Kristian',
-    from: '593990179723@c.us',
-    to: '593979483746@c.us',
-    self: 'in',
-    ack: 1,
-    isNewMsg: true,
-    star: false,
-    kicNotified: false,
-    recvFresh: true,
-    isFromTemplate: false,
-    thumbnail: '',
-    pollInvalidated: false,
-    isSentCagPollCreation: false,
-    latestEditMsgKey: null,
-    latestEditSenderTimestampMs: null,
-    broadcast: false,
-    mentionedJidList: [],
-    groupMentions: [],
-    isVcardOverMmsDocument: false,
-    labels: [],
-    hasReaction: false,
-    ephemeralSettingTimestamp: 1687963022,
-    disappearingModeInitiator: 'chat',
-    inviteGrpType: 'DEFAULT',
-    productHeaderImageRejected: false,
-    lastPlaybackProgress: 0,
-    isDynamicReplyButtonsMsg: false,
-    isMdHistoryMsg: false,
-    stickerSentTs: 0,
-    isAvatar: false,
-    requiresDirectConnection: false,
-    links: []
-  },
-  mediaKey: undefined,
-  id: {
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
     fromMe: false,
-    remote: '593990179723@c.us',
-    id: '3EB0CB57F8C4F312B1C3A3',
-    _serialized: 'false_593990179723@c.us_3EB0CB57F8C4F312B1C3A3'
+    id: '3EB04A831D8C08179AE127',
+    participant: undefined
   },
-  ack: 1,
-  hasMedia: false,
+  messageTimestamp: 1688592199,
+  pushName: 'Kristian',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
   body: 'hola',
-  type: 'chat',
-  timestamp: 1688134147,
-  from: '593990179723',
-  to: '593979483746@c.us',
-  author: undefined,
-  deviceType: 'android',
-  isForwarded: undefined,
-  forwardingScore: 0,
-  isStatus: false,
-  isStarred: false,
-  broadcast: false,
-  fromMe: false,
-  hasQuotedMsg: false,
-  hasReaction: false,
-  duration: undefined,
-  location: undefined,
-  vCards: [],
-  inviteV4: undefined,
-  mentionedIds: [],
-  orderId: undefined,
-  token: undefined,
-  isGif: false,
-  isEphemeral: undefined,
-  links: []
+  from: '593990179723'
 }
-[handleMsg]:  Message {
-  _data: {
-    id: {
-      fromMe: false,
-      remote: '593990179723@c.us',
-      id: '3EB0F0E23813E71896A504',
-      _serialized: 'false_593990179723@c.us_3EB0F0E23813E71896A504'
-    },
-    body: '1',
-    type: 'chat',
-    t: 1688134150,
-    notifyName: 'Kristian',
-    from: '593990179723@c.us',
-    to: '593979483746@c.us',
-    self: 'in',
-    ack: 1,
-    isNewMsg: true,
-    star: false,
-    kicNotified: false,
-    recvFresh: true,
-    isFromTemplate: false,
-    thumbnail: '',
-    pollInvalidated: false,
-    isSentCagPollCreation: false,
-    latestEditMsgKey: null,
-    latestEditSenderTimestampMs: null,
-    broadcast: false,
-    mentionedJidList: [],
-    groupMentions: [],
-    isVcardOverMmsDocument: false,
-    labels: [],
-    hasReaction: false,
-    ephemeralSettingTimestamp: 1687963022,
-    disappearingModeInitiator: 'chat',
-    inviteGrpType: 'DEFAULT',
-    productHeaderImageRejected: false,
-    lastPlaybackProgress: 0,
-    isDynamicReplyButtonsMsg: false,
-    isMdHistoryMsg: false,
-    stickerSentTs: 0,
-    isAvatar: false,
-    requiresDirectConnection: false,
-    links: []
-  },
-  mediaKey: undefined,
-  id: {
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
     fromMe: false,
-    remote: '593990179723@c.us',
-    id: '3EB0F0E23813E71896A504',
-    _serialized: 'false_593990179723@c.us_3EB0F0E23813E71896A504'
+    id: '3EB0E2D3EA909B0544DAE3',
+    participant: undefined
   },
-  ack: 1,
-  hasMedia: false,
+  messageTimestamp: 1688592206,
+  pushName: 'Kristian',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
   body: '1',
-  type: 'chat',
-  timestamp: 1688134150,
-  from: '593990179723',
-  to: '593979483746@c.us',
-  author: undefined,
-  deviceType: 'android',
-  isForwarded: undefined,
-  forwardingScore: 0,
-  isStatus: false,
-  isStarred: false,
-  broadcast: false,
-  fromMe: false,
-  hasQuotedMsg: false,
-  hasReaction: false,
-  duration: undefined,
-  location: undefined,
-  vCards: [],
-  inviteV4: undefined,
-  mentionedIds: [],
-  orderId: undefined,
-  token: undefined,
-  isGif: false,
-  isEphemeral: undefined,
-  links: []
+  from: '593990179723'
 }
-[handleMsg]:  Message {
-  _data: {
-    id: {
-      fromMe: false,
-      remote: '593990179723@c.us',
-      id: '3EB095669C1513DE8BDF83',
-      _serialized: 'false_593990179723@c.us_3EB095669C1513DE8BDF83'
-    },
-    body: 'para cuando estara listo el samsung ese es mas importante para mi',
-    type: 'chat',
-    t: 1688134181,
-    notifyName: 'Kristian',
-    from: '593990179723@c.us',
-    to: '593979483746@c.us',
-    self: 'in',
-    ack: 1,
-    isNewMsg: true,
-    star: false,
-    kicNotified: false,
-    recvFresh: true,
-    isFromTemplate: false,
-    thumbnail: '',
-    pollInvalidated: false,
-    isSentCagPollCreation: false,
-    latestEditMsgKey: null,
-    latestEditSenderTimestampMs: null,
-    broadcast: false,
-    mentionedJidList: [],
-    groupMentions: [],
-    isVcardOverMmsDocument: false,
-    labels: [],
-    hasReaction: false,
-    ephemeralSettingTimestamp: 1687963022,
-    disappearingModeInitiator: 'chat',
-    inviteGrpType: 'DEFAULT',
-    productHeaderImageRejected: false,
-    lastPlaybackProgress: 0,
-    isDynamicReplyButtonsMsg: false,
-    isMdHistoryMsg: false,
-    stickerSentTs: 0,
-    isAvatar: false,
-    requiresDirectConnection: false,
-    links: []
-  },
-  mediaKey: undefined,
-  id: {
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
     fromMe: false,
-    remote: '593990179723@c.us',
-    id: '3EB095669C1513DE8BDF83',
-    _serialized: 'false_593990179723@c.us_3EB095669C1513DE8BDF83'
+    id: '3EB052943937948DE6DEEF',
+    participant: undefined
   },
-  ack: 1,
-  hasMedia: false,
-  body: 'para cuando estara listo el samsung ese es mas importante para mi',
-  type: 'chat',
-  timestamp: 1688134181,
-  from: '593990179723',
-  to: '593979483746@c.us',
-  author: undefined,
-  deviceType: 'android',
-  isForwarded: undefined,
-  forwardingScore: 0,
-  isStatus: false,
-  isStarred: false,
+  messageTimestamp: 1688592275,
+  pushName: 'Kristian',
   broadcast: false,
-  fromMe: false,
-  hasQuotedMsg: false,
-  hasReaction: false,
-  duration: undefined,
-  location: undefined,
-  vCards: [],
-  inviteV4: undefined,
-  mentionedIds: [],
-  orderId: undefined,
-  token: undefined,
-  isGif: false,
-  isEphemeral: undefined,
-  links: []
-}
-[handleMsg]:  Message {
-  _data: {
-    id: {
-      fromMe: false,
-      remote: '593990179723@c.us',
-      id: '3EB01FE1CD041B50983651',
-      _serialized: 'false_593990179723@c.us_3EB01FE1CD041B50983651'
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'si porque me has respondido como estilo chat o algo asi',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
     },
-    body: 'ok gracias eso es lo que voy a hacer',
-    type: 'chat',
-    t: 1688134220,
-    notifyName: 'Kristian',
-    from: '593990179723@c.us',
-    to: '593979483746@c.us',
-    self: 'in',
-    ack: 1,
-    isNewMsg: true,
-    star: false,
-    kicNotified: false,
-    recvFresh: true,
-    isFromTemplate: false,
-    thumbnail: '',
-    pollInvalidated: false,
-    isSentCagPollCreation: false,
-    latestEditMsgKey: null,
-    latestEditSenderTimestampMs: null,
-    broadcast: false,
-    mentionedJidList: [],
-    groupMentions: [],
-    isVcardOverMmsDocument: false,
-    labels: [],
-    hasReaction: false,
-    ephemeralSettingTimestamp: 1687963022,
-    disappearingModeInitiator: 'chat',
-    inviteGrpType: 'DEFAULT',
-    productHeaderImageRejected: false,
-    lastPlaybackProgress: 0,
-    isDynamicReplyButtonsMsg: false,
-    isMdHistoryMsg: false,
-    stickerSentTs: 0,
-    isAvatar: false,
-    requiresDirectConnection: false,
-    links: []
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
   },
-  mediaKey: undefined,
-  id: {
+  body: 'si porque me has respondido como estilo chat o algo asi',
+  from: '593990179723'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
     fromMe: false,
-    remote: '593990179723@c.us',
-    id: '3EB01FE1CD041B50983651',
-    _serialized: 'false_593990179723@c.us_3EB01FE1CD041B50983651'
+    id: '3EB0FC2AC69822516F90F9',
+    participant: undefined
   },
-  ack: 1,
-  hasMedia: false,
-  body: 'ok gracias eso es lo que voy a hacer',
-  type: 'chat',
-  timestamp: 1688134220,
-  from: '593990179723',
-  to: '593979483746@c.us',
-  author: undefined,
-  deviceType: 'android',
-  isForwarded: undefined,
-  forwardingScore: 0,
-  isStatus: false,
-  isStarred: false,
+  messageTimestamp: 1688592321,
+  pushName: 'Kristian',
   broadcast: false,
-  fromMe: false,
-  hasQuotedMsg: false,
-  hasReaction: false,
-  duration: undefined,
-  location: undefined,
-  vCards: [],
-  inviteV4: undefined,
-  mentionedIds: [],
-  orderId: undefined,
-  token: undefined,
-  isGif: false,
-  isEphemeral: undefined,
-  links: []
-}
-[handleMsg]:  Message {
-  _data: {
-    id: {
-      fromMe: false,
-      remote: '593990179723@c.us',
-      id: '3EB08BFD0987F4752BCD98',
-      _serialized: 'false_593990179723@c.us_3EB08BFD0987F4752BCD98'
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'pero porque usas esas etiquetas de [cliente] [asistente] eso no se ve natural',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
     },
-    body: 'ok',
-    type: 'chat',
-    t: 1688134236,
-    notifyName: 'Kristian',
-    from: '593990179723@c.us',
-    to: '593979483746@c.us',
-    self: 'in',
-    ack: 1,
-    isNewMsg: true,
-    star: false,
-    kicNotified: false,
-    recvFresh: true,
-    isFromTemplate: false,
-    thumbnail: '',
-    pollInvalidated: false,
-    isSentCagPollCreation: false,
-    latestEditMsgKey: null,
-    latestEditSenderTimestampMs: null,
-    broadcast: false,
-    mentionedJidList: [],
-    groupMentions: [],
-    isVcardOverMmsDocument: false,
-    labels: [],
-    hasReaction: false,
-    ephemeralSettingTimestamp: 1687963022,
-    disappearingModeInitiator: 'chat',
-    inviteGrpType: 'DEFAULT',
-    productHeaderImageRejected: false,
-    lastPlaybackProgress: 0,
-    isDynamicReplyButtonsMsg: false,
-    isMdHistoryMsg: false,
-    stickerSentTs: 0,
-    isAvatar: false,
-    requiresDirectConnection: false,
-    links: []
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
   },
-  mediaKey: undefined,
-  id: {
+  body: 'pero porque usas esas etiquetas de [cliente] [asistente] eso no se ve natural',
+  from: '593990179723'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
     fromMe: false,
-    remote: '593990179723@c.us',
-    id: '3EB08BFD0987F4752BCD98',
-    _serialized: 'false_593990179723@c.us_3EB08BFD0987F4752BCD98'
+    id: '3EB0BB3582DB1BE7A66C13',
+    participant: undefined
   },
-  ack: 1,
-  hasMedia: false,
-  body: 'ok',
-  type: 'chat',
-  timestamp: 1688134236,
-  from: '593990179723',
-  to: '593979483746@c.us',
-  author: undefined,
-  deviceType: 'android',
-  isForwarded: undefined,
-  forwardingScore: 0,
-  isStatus: false,
-  isStarred: false,
+  messageTimestamp: 1688592346,
+  pushName: 'Kristian',
   broadcast: false,
-  fromMe: false,
-  hasQuotedMsg: false,
-  hasReaction: false,
-  duration: undefined,
-  location: undefined,
-  vCards: [],
-  inviteV4: undefined,
-  mentionedIds: [],
-  orderId: undefined,
-  token: undefined,
-  isGif: false,
-  isEphemeral: undefined,
-  links: []
-}
-[handleMsg]:  Message {
-  _data: {
-    id: {
-      fromMe: false,
-      remote: '593990179723@c.us',
-      id: '3EB0FF4ED0766B0A01A891',
-      _serialized: 'false_593990179723@c.us_3EB0FF4ED0766B0A01A891'
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'jajaja solo le has quitado los []',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
     },
-    body: 'hola',
-    type: 'chat',
-    t: 1688134254,
-    notifyName: 'Kristian',
-    from: '593990179723@c.us',
-    to: '593979483746@c.us',
-    self: 'in',
-    ack: 1,
-    isNewMsg: true,
-    star: false,
-    kicNotified: false,
-    recvFresh: true,
-    isFromTemplate: false,
-    thumbnail: '',
-    pollInvalidated: false,
-    isSentCagPollCreation: false,
-    latestEditMsgKey: null,
-    latestEditSenderTimestampMs: null,
-    broadcast: false,
-    mentionedJidList: [],
-    groupMentions: [],
-    isVcardOverMmsDocument: false,
-    labels: [],
-    hasReaction: false,
-    ephemeralSettingTimestamp: 1687963022,
-    disappearingModeInitiator: 'chat',
-    inviteGrpType: 'DEFAULT',
-    productHeaderImageRejected: false,
-    lastPlaybackProgress: 0,
-    isDynamicReplyButtonsMsg: false,
-    isMdHistoryMsg: false,
-    stickerSentTs: 0,
-    isAvatar: false,
-    requiresDirectConnection: false,
-    links: []
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
   },
-  mediaKey: undefined,
-  id: {
+  body: 'jajaja solo le has quitado los []',
+  from: '593990179723'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
     fromMe: false,
-    remote: '593990179723@c.us',
-    id: '3EB0FF4ED0766B0A01A891',
-    _serialized: 'false_593990179723@c.us_3EB0FF4ED0766B0A01A891'
+    id: '3EB04F18C32D29FA328873',
+    participant: undefined
   },
-  ack: 1,
-  hasMedia: false,
-  body: 'hola',
-  type: 'chat',
-  timestamp: 1688134254,
-  from: '593990179723',
-  to: '593979483746@c.us',
-  author: undefined,
-  deviceType: 'android',
-  isForwarded: undefined,
-  forwardingScore: 0,
-  isStatus: false,
-  isStarred: false,
+  messageTimestamp: 1688592384,
+  pushName: 'Kristian',
   broadcast: false,
-  fromMe: false,
-  hasQuotedMsg: false,
-  hasReaction: false,
-  duration: undefined,
-  location: undefined,
-  vCards: [],
-  inviteV4: undefined,
-  mentionedIds: [],
-  orderId: undefined,
-  token: undefined,
-  isGif: false,
-  isEphemeral: undefined,
-  links: []
-}
-[handleMsg]:  Message {
-  _data: {
-    id: {
-      fromMe: false,
-      remote: '593990179723@c.us',
-      id: '3EB0E4104B84E750F27FC3',
-      _serialized: 'false_593990179723@c.us_3EB0E4104B84E750F27FC3'
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'gracias',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
     },
-    body: '1',
-    type: 'chat',
-    t: 1688134257,
-    notifyName: 'Kristian',
-    from: '593990179723@c.us',
-    to: '593979483746@c.us',
-    self: 'in',
-    ack: 1,
-    isNewMsg: true,
-    star: false,
-    kicNotified: false,
-    recvFresh: true,
-    isFromTemplate: false,
-    thumbnail: '',
-    pollInvalidated: false,
-    isSentCagPollCreation: false,
-    latestEditMsgKey: null,
-    latestEditSenderTimestampMs: null,
-    broadcast: false,
-    mentionedJidList: [],
-    groupMentions: [],
-    isVcardOverMmsDocument: false,
-    labels: [],
-    hasReaction: false,
-    ephemeralSettingTimestamp: 1687963022,
-    disappearingModeInitiator: 'chat',
-    inviteGrpType: 'DEFAULT',
-    productHeaderImageRejected: false,
-    lastPlaybackProgress: 0,
-    isDynamicReplyButtonsMsg: false,
-    isMdHistoryMsg: false,
-    stickerSentTs: 0,
-    isAvatar: false,
-    requiresDirectConnection: false,
-    links: []
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
   },
-  mediaKey: undefined,
-  id: {
-    fromMe: false,
-    remote: '593990179723@c.us',
-    id: '3EB0E4104B84E750F27FC3',
-    _serialized: 'false_593990179723@c.us_3EB0E4104B84E750F27FC3'
-  },
-  ack: 1,
-  hasMedia: false,
-  body: '1',
-  type: 'chat',
-  timestamp: 1688134257,
-  from: '593990179723',
-  to: '593979483746@c.us',
-  author: undefined,
-  deviceType: 'android',
-  isForwarded: undefined,
-  forwardingScore: 0,
-  isStatus: false,
-  isStarred: false,
-  broadcast: false,
-  fromMe: false,
-  hasQuotedMsg: false,
-  hasReaction: false,
-  duration: undefined,
-  location: undefined,
-  vCards: [],
-  inviteV4: undefined,
-  mentionedIds: [],
-  orderId: undefined,
-  token: undefined,
-  isGif: false,
-  isEphemeral: undefined,
-  links: []
-}
-[handleMsg]:  Message {
-  _data: {
-    id: {
-      fromMe: false,
-      remote: '593990179723@c.us',
-      id: '3EB0BC91A7E9F1353E70B9',
-      _serialized: 'false_593990179723@c.us_3EB0BC91A7E9F1353E70B9'
-    },
-    body: 'gracias',
-    type: 'chat',
-    t: 1688134272,
-    notifyName: 'Kristian',
-    from: '593990179723@c.us',
-    to: '593979483746@c.us',
-    self: 'in',
-    ack: 1,
-    isNewMsg: true,
-    star: false,
-    kicNotified: false,
-    recvFresh: true,
-    isFromTemplate: false,
-    thumbnail: '',
-    pollInvalidated: false,
-    isSentCagPollCreation: false,
-    latestEditMsgKey: null,
-    latestEditSenderTimestampMs: null,
-    broadcast: false,
-    mentionedJidList: [],
-    groupMentions: [],
-    isVcardOverMmsDocument: false,
-    labels: [],
-    hasReaction: false,
-    ephemeralSettingTimestamp: 1687963022,
-    disappearingModeInitiator: 'chat',
-    inviteGrpType: 'DEFAULT',
-    productHeaderImageRejected: false,
-    lastPlaybackProgress: 0,
-    isDynamicReplyButtonsMsg: false,
-    isMdHistoryMsg: false,
-    stickerSentTs: 0,
-    isAvatar: false,
-    requiresDirectConnection: false,
-    links: []
-  },
-  mediaKey: undefined,
-  id: {
-    fromMe: false,
-    remote: '593990179723@c.us',
-    id: '3EB0BC91A7E9F1353E70B9',
-    _serialized: 'false_593990179723@c.us_3EB0BC91A7E9F1353E70B9'
-  },
-  ack: 1,
-  hasMedia: false,
   body: 'gracias',
-  type: 'chat',
-  timestamp: 1688134272,
-  from: '593990179723',
-  to: '593979483746@c.us',
-  author: undefined,
-  deviceType: 'android',
-  isForwarded: undefined,
-  forwardingScore: 0,
-  isStatus: false,
-  isStarred: false,
+  from: '593990179723'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B8D89F8DECBF70370D',
+    participant: undefined
+  },
+  messageTimestamp: 1688592393,
+  pushName: 'Kristian',
   broadcast: false,
-  fromMe: false,
-  hasQuotedMsg: false,
-  hasReaction: false,
-  duration: undefined,
-  location: undefined,
-  vCards: [],
-  inviteV4: undefined,
-  mentionedIds: [],
-  orderId: undefined,
-  token: undefined,
-  isGif: false,
-  isEphemeral: undefined,
-  links: []
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'gracias',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'gracias',
+  from: '593990179723'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '593990179723@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB093EA6C08DD0CCE63B4',
+    participant: undefined
+  },
+  messageTimestamp: 1688592408,
+  pushName: 'Kristian',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '593990179723'
 }
